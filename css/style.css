@@ -25,6 +25,13 @@ body{
     position: relative;
 }
 
+.default-container{
+    width: 60%;
+    height: 100%;
+    margin: 0 auto;
+    border: 1px solid red;
+}
+
 /* -------HEADER------- */
 /* Nav */
 header section.nav{
@@ -60,4 +67,34 @@ div.jumbo-img{
    right: 0; 
 
    background-color: blueviolet;
+}
+
+/* -------MAIN------- */
+
+/* Business Plane */
+section.business-plane{
+    width: 100%;
+    height: 130vh;
+    background-color: rgb(114, 114, 114);
+    padding: 5rem 0 2rem 0 ;
+}
+
+div.box-plane-general-section{
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+div.box-plane-business{
+    width: calc((100% / 3) - .4rem);
+    height: 80%;
+    background-color: cadetblue;
+    margin: 0 .4rem;
+}
+
+
+div.title-box-plane{
+    height: 5%;
+    width: 100%;
+    background-color: coral;
 }
