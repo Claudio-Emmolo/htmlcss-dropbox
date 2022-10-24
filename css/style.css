@@ -139,3 +139,40 @@ div.right-findpartner-txt{
     height: 100%;
     background-color: rgb(42, 165, 83);
 }
+
+/* Business operations */
+section.business-operations{
+    width: 100%;
+    height: 150vh;
+    padding: 5rem 0;
+}
+
+div.business-operation-row{
+    width: 100%;
+    height: 50%;
+    border: 1px solid blue;
+    margin-top: 2rem;
+}
+
+article.business-operation-card{
+    width: calc((100% / 3) - .4rem);
+    height: 100%;
+
+    margin: .4rem;
+    background-color: blueviolet;
+}
+
+div.business-operation-card-box-img{
+    width: 100%;
+    height: 40%;
+    border: 1px solid red;
+}
+
+div.business-operation-card-box-txt{
+    width: 100%;
+    height: 60%;
+    background-color:  grey;
+}
+
+
+
