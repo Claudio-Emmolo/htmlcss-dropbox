@@ -42,6 +42,13 @@ body{
     background-color: #b4d0e7 ;
 }
 
+div.separator-box-business-plane{
+    width: 20%;
+    height: 1px;
+    background-color: grey;
+    margin: 2rem 0;
+}
+
 /* Buttons */
 
 .btn-default{
@@ -167,14 +174,26 @@ div.bottom-arrow{
 
 /* Business Plane */
 section.business-plane{
-    margin-top: 3rem;
+    margin-top: 2.5rem;
 
     width: 100%;
     height: auto;
-    background-color: rgb(114, 114, 114);
     padding: 5rem 0 2rem 0 ;
 }
 
+section.business-plane h2{
+    font-size: 2rem;
+}
+
+div.label{
+    margin: 2rem 0;
+    display: flex;
+}
+
+div.label div.annua{
+    margin-left: 3rem;
+}
+/* Box */
 div.box-plane-general-section{
     width: 100%;
     display: flex;
@@ -182,16 +201,37 @@ div.box-plane-general-section{
 
 div.box-plane-business{
     width: calc((100% / 3) - .4rem);
-    height: 85vh;
+    height: 110vh;
     background-color: cadetblue;
     margin: 0 .4rem;
 }
 
+div.box-plane-business span{
+    display: block;
+}
 
 div.title-box-plane{
     height: 5%;
     width: 100%;
     background-color: coral;
+}
+
+div.inside-txt-box{
+    padding: 1rem .8rem;
+}
+
+
+div.box-plane-business section.features{
+    margin-top: 3rem;
+}
+
+div.free-trial-day{
+    margin: 2rem 0;
+}
+
+span.highlight{
+    font-size: .8rem;
+    margin: 1rem 0;
 }
 
 /* Team*/
@@ -332,6 +372,7 @@ div.faq-section span{
     background-color: white;
     margin: 2rem 0;
 }
+
 
 footer{
     padding-top: 2rem;
