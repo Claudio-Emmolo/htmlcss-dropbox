@@ -173,5 +173,12 @@ div.business-operation-card-box-txt{
     background-color: grey;
 }
 
+/* Team*/
+section.customer-data{
+    width: 100%;
+     height: 45vh;
+    padding: 3rem 0;
+    background-color: grey;
+}
 
 
