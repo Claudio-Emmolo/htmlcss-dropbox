@@ -98,3 +98,24 @@ div.title-box-plane{
     width: 100%;
     background-color: coral;
 }
+
+/* Team*/
+
+section.team{
+    width: 100%;
+    height: 40vh;
+    padding: 3rem 0;
+}
+
+div.box-team{
+    width: 100%;
+    height: 100%;
+    background-color: cadetblue;
+}
+
+
+div.title-team{
+    height: 20%;
+    width: 100%;
+    background-color: coral;
+}
