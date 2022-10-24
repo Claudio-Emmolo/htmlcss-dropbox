@@ -119,3 +119,23 @@ div.title-team{
     width: 100%;
     background-color: coral;
 }
+
+/* Find Partner*/
+
+section.find-partner{
+    height: 90vh;
+    padding: 5rem 0;
+    background-color: gray;
+}
+
+div.left-findpartner-img{
+    width: 55%;
+    height: 100%;
+    background-color: brown;
+}
+
+div.right-findpartner-txt{
+    width: 45%;
+    height: 100%;
+    background-color: rgb(42, 165, 83);
+}
