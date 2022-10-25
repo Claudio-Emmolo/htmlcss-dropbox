@@ -414,20 +414,12 @@ section.customer-data{
 /* Company Collaboration*/
 section.company-collaboration{
     width: 100%;
-    height: 70vh;
     background-color: aqua;
 }
 
-div.company-collaboration-description{
-    width: 30%;
-    height: 100%;
-    background-color:darkgoldenrod;
-
-}
-
 div.company-collaboration-square{
-    width: 35%;
-    height: 100%;
+    width: calc(100vw / 3 );
+    height: calc(100vw / 3);
     background-color: coral;
 
     display: flex;
