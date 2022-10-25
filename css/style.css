@@ -522,19 +522,30 @@ div.try-dropbox-right-btn{
 
 section.faq{
     width: 100%;
-    height: 80vh;
-    padding: 3rem 0;
+    /* height: 80vh; */
+    padding: 7rem 0;
+}
+
+section.faq h2{
+    font-size: 1.8rem;
+    padding-bottom: 1.5rem;
 }
 
 div.faq-section{
     margin-top: 2rem;
+    border-top: 1px solid grey;
 }
 
-div.faq-section span{
-    display: block;
-    padding: 1.5rem 0;
-    border-top: 1px solid black;
-    border-bottom: 1px solid black;
+div.faq-section-close{
+    padding: 2rem 0;
+    border-bottom: 1px solid grey;
+
+    justify-content: space-between;
+}
+
+div.faq-section-close i{
+    font-size: .8rem;
+    padding-right: 2rem;
 }
 
 /* -------FOOTER------- */
