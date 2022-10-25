@@ -6,6 +6,10 @@
 }
 
 /* -----GENERAL----- */
+html{
+    scroll-behavior: smooth;
+}
+
 body{
     font-family: 'Open Sans', sans-serif;
     min-width: 1348px;
@@ -197,7 +201,33 @@ div.bottom-arrow{
     left: 0;
 
     font-size: 2.5rem;
+
+    animation:shake-vertical .5s linear infinite
 }
+
+
+@keyframes shake-vertical {
+
+    0%{
+        transform: scale(1);
+    }
+
+    50%{
+        transform: scale(1.2);
+
+    }
+
+    100%{
+        transform: scale(1);
+    }
+    
+}
+
+div.bottom-arrow a{
+    text-decoration: none;
+    color: #000000;
+}
+
 
 /* -------MAIN------- */
 
