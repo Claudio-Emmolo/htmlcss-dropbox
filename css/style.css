@@ -23,6 +23,12 @@ body{
     align-items: center;
 }
 
+.flex-between{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
 .big-container{
     width: 70%;
     height: 100%;
@@ -100,7 +106,6 @@ header section.nav{
     height: 10vh;
     background-color: white;
 
-    justify-content: space-between;
     padding: 0 1rem;
 }
 
@@ -550,8 +555,8 @@ div.faq-section-close i{
 /* -------FOOTER------- */
 .separator-line{
     width: 10%;
-    height: 3px;
-    background-color: white;
+    height: 2px;
+    background-color: grey;
     margin: 2rem 0;
 }
 
@@ -569,11 +574,17 @@ section.top-footer{
 }
 
 nav.footer-navs{
-    border: 1px solid white;
+}
+
+nav.footer-navs h5{
+    font-size: 1.5rem;
+    margin-bottom: 1.5rem;
 }
 
 nav.footer-navs ul li{
     list-style: none;
+    margin-bottom: .8rem;
+    font-size: .8rem;
 }
 
 nav.footer-navs ul li a{
