@@ -52,6 +52,16 @@ h3{
     font-size: 1.5rem;
 }
 
+.link-blue{
+    text-decoration: none;
+    color: #0061ff;
+    border-bottom: 1px solid #0061ff;
+}
+
+.link-blue:hover{
+    color: #2a7cff;
+}
+
 /* Buttons */
 
 .btn-default{
@@ -251,12 +261,6 @@ span.buy-now{
     font-size: .9rem;
 }
 
-span.buy-now a{
-    text-decoration: none;
-    color: #0061ff;
-    border-bottom: 1px solid #0061ff;
-}
-
 div.free-trial-day{
     margin: 3rem 0 1.5rem;
 }
@@ -411,8 +415,13 @@ div.business-operation-card-box-txt p{
 /* Customer data - Try Dropbox*/
 section.customer-data{
     width: 100%;
-     height: 45vh;
-    padding: 3rem 0;
+    /* height: 45vh; */
+    padding: 3rem 0 4rem;
+}
+
+section.customer-data h2{
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
 }
 
 /* Company Collaboration*/
