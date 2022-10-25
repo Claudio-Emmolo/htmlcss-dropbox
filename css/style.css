@@ -363,7 +363,11 @@ div.right-findpartner-txt button{
 section.business-operations{
     width: 100%;
     height: auto;
-    padding: 3rem 0;
+    padding: 3rem 0 8rem;
+}
+
+section.business-operations h2{
+    margin-bottom: 2rem;
 }
 
 div.business-operation-row{
