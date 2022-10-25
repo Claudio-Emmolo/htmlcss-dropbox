@@ -388,7 +388,7 @@ article.business-operation-card{
 
 div.business-operation-card-box-img{
     width: 100%;
-    height: 45%;
+    height: 55%;
 }
 
 div.business-operation-card-box-img img{
@@ -522,7 +522,6 @@ div.try-dropbox-right-btn{
 
 section.faq{
     width: 100%;
-    /* height: 80vh; */
     padding: 7rem 0;
 }
 
