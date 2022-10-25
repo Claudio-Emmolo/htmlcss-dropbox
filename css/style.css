@@ -142,6 +142,11 @@ nav.main-nav ul li a {
     color: black;
 }
 
+nav.main-nav ul li a:hover{
+    border-bottom: 1px solid black;
+    margin-top: .2rem;
+}
+
 div.btn{
     margin-left: .8rem;
 }
