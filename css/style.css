@@ -267,7 +267,6 @@ div.box-plane-general-section{
 
 div.box-plane-business{
     width: calc((100% / 3) - .4rem);
-    height: 850px;
     margin: 0 .4rem;
     border: 1px solid black;
 }
