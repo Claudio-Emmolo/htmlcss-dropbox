@@ -15,6 +15,10 @@ body{
     min-width: 1348px;
 }
 
+.flex{
+    display: flex;
+}
+
 .flex-center{
     display: flex;
     justify-content: center;
@@ -304,6 +308,10 @@ div.box-plane-business section.features{
 div.box-plane-business section.features span{
     margin: .8rem 0;
     font-size: .9rem;
+}
+
+span.icon-spacing i{
+    margin-right: .5rem;
 }
 
 span.buy-now{
